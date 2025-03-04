@@ -1,0 +1,520 @@
+.banner {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-color: saddlebrown;
+    color: gold;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.title {
+    float: left;
+    position: absolute;
+    width: 33%;
+    height: 100%;
+    margin-left: 33%;
+    font-size: 80px;
+    text-align: center;
+}
+
+.auth {
+    float: right;
+    position: relative;
+    width: 12%;
+    height: 100%;
+    margin-top: 2%;
+}
+
+.auth a {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    color: yellow;
+    text-align: center;
+    text-decoration: none;
+}
+
+.return {
+    float: left;
+    position: relative;
+    width: 5%;
+    height: 100%;
+    margin-top: 2%;
+    margin-left: 1%;
+}
+
+.return a {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    color: yellow;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin-top: 7%;
+    width: 100%;
+    height: 35px;
+    background-color: gold;
+}
+
+.navbar {
+    position: relative;
+    margin: auto;
+    height: 100%;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.navbar li {
+    position: relative;
+    float: left;
+    width: 23%;
+    height: 100%;
+    background-color: gold;
+    text-align: center;
+}
+
+.navbar li a {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: gold;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: darkgoldenrod;
+}
+
+.container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    margin-top: 9.7%;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 130px;
+    background-color: saddlebrown;
+}
+
+.copyright {
+    position: relative;
+    width: 100%;
+    margin-top: 5%;
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.games {
+    position: relative;
+    width: 100%;
+}
+
+.description {
+    position: relative;
+    width: 100%;
+    height: 3%;
+    margin-top: 3%;
+    color: gold;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.goals {
+    position: relative;
+    width: 100%;
+    height: 30%;
+}
+
+.mission, .vision {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 100%;
+    margin-top: 3%;
+}
+
+.mission-title, .vision-title {
+    position: relative;
+    color: gold;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.mission-content, .vision-content, .about-content, .contact-content {
+    position: relative;
+    margin-top: 3%;
+    color: gold;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.about, .contact, .register-form, .login-form, .account-recovery-form, .upload-game-form, .change-password-form {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 10%;
+    color: gold;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.verify-form {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+    color: gold;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.search-games-form, .search-users-form {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.about-title, .contact-title, .games-title, .register-title, .verify-title, .login-title, .account-recovery-title, .uploaded-games-title, .credentials-title, .change-password-title, .delete-account-title, .upload-game-title, .welcome-user, .welcome-admin, .users-title {
+    position: relative;
+    width: 100%;
+    height: 10%;
+    margin-top: 3%;
+    color: gold;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.credentials-name, .credentials-username, .credentials-email {
+    position: relative;
+    width: 100%;
+    height: 1%;
+    margin-top: 3%;
+    color: gold;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+#search-game-name {
+    position: relative;
+    width: 90%;
+    height: 40%;
+}
+
+#game-name, #user-identity {
+    position: relative;
+    width: 80%;
+    height: 40%;
+}
+
+#game-status, #user-status {
+    position: relative;
+    width: 9%;
+    height: 50%;
+}
+
+.games-list {
+    position: relative;
+    width: 100%;
+    border-spacing: 20px;
+}
+
+.games-list tr {
+    position: relative;
+    width: 100%;
+    height: 10%;
+}
+
+.games-list tr td {
+    position: relative;
+    width: 25%;
+    height: 100%;
+}
+
+.games-list tr td div {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+    background-color: gold;
+    box-shadow: 10px 10px gray;
+}
+
+.games-list tr td div img {
+    position: relative;
+    width: 80%;
+    height: 80%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.games-list tr td div div {
+    position: relative;
+    margin: auto;
+    height: 10%;
+    text-align: center;
+}
+
+.games-list tr td div a {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.games-list tr td div a:hover {
+    background-color: darkgoldenrod;
+}
+
+.form-outer {
+    position: relative;
+    width: 20%;
+    height: 30%;
+    margin-left: 43%;
+}
+
+#name, #username, #email, #identifier, #password, #image, #file {
+    position: relative;
+    width: 97%;
+    height: 15%;
+}
+
+#new_password {
+    position: relative;
+    width: 97%;
+    height: 30%;
+}
+
+.forgot-password {
+    position: relative;
+    width: 40%;
+    height: 15%;
+    color: gold;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+#digit-1, #digit-2, #digit-3, #digit-4 {
+    position: relative;
+    width: 5%;
+    height: 30%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#digit-1 {
+    margin-left: 35%;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#name-error, #username-error, #email-error, #identifier-error, #password-error, #code-error, #image-error, #file-error, #new_password-error {
+    position: relative;
+    width: 97%;
+    height: 15%;
+    color: red;
+    font-size: 12px;
+}
+
+#register-btn, #login-btn, #check-email-btn, #upload-game-btn, #change-password-btn {
+    position: relative;
+    width: 100%;
+    height: 30%;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#change-password-btn {
+    position: relative;
+    width: 100%;
+    height: 60%;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#verify-btn {
+    position: relative;
+    width: 28%;
+    height: 30%;
+    margin-left: 35%;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#search-game-btn, #search-users-btn {
+    position: relative;
+    width: 9%;
+    height: 60%;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#register-btn:hover, #verify-btn:hover, #login-btn:hover, #check-email-btn:hover, #upload-game-btn:hover, #search-game-btn:hover, #search-users-btn:hover, #change-password-btn:hover {
+    background-color: darkblue;
+    color: silver;
+}
+
+.uploaded-games-list, .users-list {
+    position: relative;
+    width: 100%;
+}
+
+.uploaded-games-list tr {
+    position: relative;
+    width: 100%;
+    height: 10%;
+}
+
+.users-list tr {
+    position: relative;
+    width: 100%;
+    height: 50px;
+}
+
+#uploaded-games, #users {
+    position: relative;
+    width: 100%;
+}
+
+.uploaded-games-list tr th, .uploaded-games-list tr td, .users-list tr th, .users-list tr td {
+    position: relative;
+    width: 16%;
+    height: 100%;
+    background-color: gold;
+    border-width: thin;
+    border-style: solid;
+    border-color: black;
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.uploaded-games-list tr td img {
+    position: relative;
+    width: 80%;
+    height: 80%;
+}
+
+.delete-account-btn {
+    position: relative;
+    width: 10%;
+    height: 10%;
+    margin-top: 1%;
+    margin-left: 45%;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+.delete-account-btn:hover, .reject-btn:hover, .toggle-user-status-btn:hover {
+    background-color: darkred;
+    color: silver;
+}
+
+.approve-btn {
+    position: absolute;
+    width: 45%;
+    height: 20%;
+    margin-top: -5%;
+    margin-left: -47%;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.approve-btn:hover {
+    background-color: darkgreen;
+    color: silver;
+}
+
+.reject-btn {
+    position: absolute;
+    width: 45%;
+    height: 20%;
+    margin-top: -5%;
+    margin-left: 2%;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.toggle-user-status-btn {
+    position: absolute;
+    width: 40%;
+    height: 70%;
+    margin-left: -18%;
+    margin-top: -9%;
+    background-color: red;
+    color: white;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+}
